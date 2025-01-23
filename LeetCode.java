@@ -20,10 +20,6 @@ public class LeetCode {
      */
     
     public static void main(String[] args) {
-        int[] array = {9,9};
-        int[] newarr = pluseOne(array);
-        for(int j=0;j<newarr.length;j++){
-            System.out.print(newarr[j]+" ");
-        }
+        // modify code according to function
     }
 }
