@@ -1,7 +1,9 @@
 import java.util.*;
 public class LeetCode {
 
-    public static int[] pluseOne(int[] digits){
+    /*-------------------------------------Pluse One number in array-------------------------------------
+
+     * public static int[] pluseOne(int[] digits){
         for(int i= digits.length-1; i>=0;i--){
             if(digits[i]<9){
                 digits[i]++;
@@ -15,6 +17,7 @@ public class LeetCode {
         return digits;
         
     }
+     */
     
     public static void main(String[] args) {
         int[] array = {9,9};
