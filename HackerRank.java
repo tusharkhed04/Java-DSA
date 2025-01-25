@@ -243,3 +243,36 @@ public class Solution {
     }
    * 
    */
+
+
+   /*--------------------------------------------------sum of subarray of array = 0--------------------------------------------------
+        public static void main(String[] args) {
+        int[] a = {1,-2,4,-5,1};
+        int count =0;
+        
+
+        for(int i = 0;i<a.length;i++){
+            int j =i;
+            int sum =0;
+            int k =i;
+            while (j<a.length) {
+                
+                
+                if(k<=j){
+                    sum += a[k];
+                    k++;
+                }
+                if(sum <0){
+                    count++;
+                }
+                j++;
+                
+
+                
+            }
+        }
+        System.out.println(count);
+    
+    }
+     
+    */
